@@ -14,6 +14,4 @@ INSERT INTO employee (id,first_name,last_name) VALUES (2,'marin','jose');
 INSERT INTO employee (id,first_name,last_name) VALUES (3,'roman','felix');
 INSERT INTO employee (id,first_name,last_name) VALUES (4,'abel','miguel');
 
-
-
 -- ...
