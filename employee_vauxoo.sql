@@ -28,3 +28,15 @@ INSERT INTO employee_departament (id,first_name,last_name) VALUES (3,'staff','co
 INSERT INTO employee_departament (id,first_name,last_name) VALUES (4,'bioquimica','cordinador del area de quimica y fisica');
 INSERT INTO employee_departament (id,first_name,last_name) VALUES (5,'redes','se encarga de revisar y mantener estable la red de la empresa');
 INSERT INTO employee_departament (id,first_name,last_name) VALUES (6,'electronica','coordinador del area de electronica');
+
+CREATE TABLE employee_hobby (
+id INTEGER PRIMARY KEY,
+name VARCHAR(25),
+description VARCHAR(30)
+
+);
+INSERT INTO employee_hobby(id,name,description) values (1,'jugar','juego de futbol');
+INSERT INTO employee_hobby(id,name,description) values (2,'cantar','cantos romanticos');
+INSERT INTO employee_hobby(id,name,description) values (3,'leer','me gusta leer mucho');
+
+-- ...
